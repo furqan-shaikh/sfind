@@ -17,8 +17,7 @@ Stop searching by filenames. **sfind** lets you search your filesystem by **mean
 - 🔹 **Filesystem as a vector store**: embeddings stored in file inodes (as extended attributes)  
 - 🔹 **Explainable image results**: captions for image files  
 - 🔹 **Privacy Focused**: Offline and local as no data is sent to cloud
-- 🔹 **CLI interface** with ranked results  
-- 
+- 🔹 **CLI interface** with ranked results
 
 ---
 
