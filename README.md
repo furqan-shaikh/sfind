@@ -5,7 +5,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PyPI Version](https://img.shields.io/pypi/v/sfind.svg)](https://pypi.org/project/sfind/)
-[![GitHub stars](https://img.shields.io/github/stars/<your-username>/sfind?style=social)](https://github.com/<your-username>/sfind)
+[![GitHub stars](https://img.shields.io/github/stars/furqan-shaikh/sfind?style=social)](https://github.com/furqan-shaikh/sfind)
 
 ---
 
