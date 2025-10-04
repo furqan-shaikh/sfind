@@ -29,15 +29,15 @@ pip install -e .
 ```
 
 ## Search example
-`sfind --query "novak djokovic playing tennis" --describe-image`
+`--query "novak djokovic playing tennis" --path /path/to/files --file_type i --explain true --limit 3`
 
 Results for query: novak djokovic playing tennis
-┏━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ # ┃ File                           ┃ Score ┃ Caption                         ┃
-┡━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ 1 │ /path/to/image1.jpg            │ 0.311 │ a tennis player in action on a green court │
-│ 2 │ /path/to/file2.pdf             │ 0.198 │ a certificate for a child      │
-│ 3 │ /path/to/file3.txt             │ 0.186 │ a letter from the owner of the home │
+
+| # | File                 | Score | Caption                                    |
+|---|----------------------|-------|--------------------------------------------|
+| 1 | /path/to/image1.jpg  | 0.311 | a tennis player in action on a green court |
+| 2 | /path/to/image2.jpeg | 0.310 | tennis player playing on hard court        |
+| 3 | /path/to/image3.png  | 0.186 | a tennis court                             |
 
 ## 🔧 How it works
  - Embedding generation: files are encoded into vectors by your chosen model.
