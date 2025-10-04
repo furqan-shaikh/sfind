@@ -14,9 +14,11 @@
 Stop searching by filenames. **sfind** lets you search your filesystem by **meaning and content**. Describe what you want — sfind finds it.  
 
 - 🔹 **Semantic search** using AI models like **Perception Encoder** & **CLIP**  
-- 🔹 **Filesystem as a vector store**: embeddings stored in file inodes (xattrs)  
+- 🔹 **Filesystem as a vector store**: embeddings stored in file inodes (as extended attributes)  
 - 🔹 **Explainable image results**: captions for image files  
-- 🔹 **Fast CLI interface** with ranked results  
+- 🔹 **Privacy Focused**: Offline and local as no data is sent to cloud
+- 🔹 **CLI interface** with ranked results  
+- 
 
 ---
 
@@ -38,6 +40,43 @@ Results for query: novak djokovic playing tennis
 | 1 | /path/to/image1.jpg  | 0.311 | a tennis player in action on a green court |
 | 2 | /path/to/image2.jpeg | 0.310 | tennis player playing on hard court        |
 | 3 | /path/to/image3.png  | 0.186 | a tennis court                             |
+
+## 🧭 CLI Usage
+NAME
+
+sfind – semantic file finder
+
+SYNOPSIS
+
+sfind [QUERY] [OPTIONS]
+
+DESCRIPTION
+
+sfind performs semantic search over your local filesystem.
+It encodes file contents (text or images) using pluggable models such as
+Meta’s Perception Encoder or OpenAI’s CLIP, and stores their embeddings
+directly in the file’s extended attributes.
+This effectively turns your filesystem into a local vector store.
+
+OPTIONS
+
+--query  
+    Text query to search against
+
+--query  
+    Path to search against
+
+--file_type
+Types of files to search. Valid values as of now are: i 
+
+--limit <N>  
+    Maximum number of results to display (default: 10).
+
+--explain <true|false>  
+    Generate captions for image results (default: false).
+
+
+
 
 ## 🔧 How it works
  - Embedding generation: files are encoded into vectors by your chosen model.
