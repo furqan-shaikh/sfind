@@ -53,7 +53,8 @@ Results for query: novak djokovic playing tennis
 | CLIP                      | Vision Encoder   | OpenAI's versatile embeddings for visual & textual data                      | openai/clip-vit-base-patch32 | 605 MB
 | SalesForce BLIP           | Captioning Model | Salesforce’s BLIP (Bootstrapping Language-Image Pre-training) model                                 | Salesforce/blip-image-captioning-base   | 990 MB
 
-
+## Design
+![sfind_design.png](docs/sfind_design.png)
 
 ## 📜 License
 MIT License
