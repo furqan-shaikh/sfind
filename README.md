@@ -29,7 +29,7 @@ pip install -e .
 ```
 
 ## Search example
-`--query "novak djokovic playing tennis" --path /path/to/files --file_type i --explain true --limit 3`
+`sfind --query "novak djokovic playing tennis" --path /path/to/files --file_type i --explain true --limit 3`
 
 Results for query: novak djokovic playing tennis
 
