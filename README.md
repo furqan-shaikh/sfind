@@ -23,7 +23,7 @@ Stop searching by filenames. **sfind** lets you search your filesystem by **mean
 ## ⚡ Quick Start
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/furqan-shaikh/sfind.git
 cd sfind
 pip install -e .
 ```
