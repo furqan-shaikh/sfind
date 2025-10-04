@@ -1,6 +1,6 @@
 {
   "model": {
-    "encoder_frontend": "clip",
+    "encoder_frontend": "pe",
     "captioning_frontend": "sf-blip-base"
   }
 }

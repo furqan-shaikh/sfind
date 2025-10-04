@@ -42,14 +42,6 @@ class PerceptionEncoderModelBackEnd:
     async def get_similarity_score(self,
                                    similarity_score_request: SimilarityScoreRequest) -> SimilarityScoreResponse:
         def _compute():
-            # text_tensor = list_to_tensor(similarity_score_request.text_embedding)
-            # features = text_tensor.to(torch.float32)
-            # image_tensor = list_to_tensor(similarity_score_request.image_embedding)
-            # text_probs = features @ image_tensor.T
-            # return SimilarityScoreResponse(
-            #     score=text_probs.squeeze(0).cpu().tolist()
-            # )
-            # print(text_probs)
             similarity = (similarity_score_request.text_embedding.to(
                 torch.float32) @ similarity_score_request.image_embedding.T).item()
             return SimilarityScoreResponse(score=similarity)
