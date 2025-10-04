@@ -62,7 +62,7 @@ OPTIONS
 --query  
     Text query to search against
 
---query  
+--path  
     Path to search against
 
 --file_type
