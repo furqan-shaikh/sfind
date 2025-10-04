@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c13e27db-1ae2-4cb7-b240-85988d3f8504" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/LICENSE.PE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/datasets/coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/datasets/coco_panoptic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/datasets/objects365.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/datasets/panoptic_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/datasets/torchvision_datasets/coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/datasets/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/engine_tta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/assigner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/matcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/functions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/functions/ms_deform_attn_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/make.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/modules/ms_deform_attn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/src/cpu/ms_deform_attn_cpu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/src/cpu/ms_deform_attn_cpu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/src/cuda/ms_deform_im2col_cuda.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/ops/src/ms_deform_attn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/utils_fed_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/models/utils_softnms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/eval.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/eval_1824pix.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/eval_tta_slurm.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/eval_tta_slurm_1824pix.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/finetune_further_spatial_Gwin384_cocoep3_1824pix_8node.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/finetune_spatial_Gwin384_cocoep12_1728pix_8node.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/pretrain_continue_spatial_Gwin384_o365ep6_1536pix_16node.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/scripts/pretrain_spatial_Gwin384_o365ep12_1024pix_16node.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/util/box_ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/util/ema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/util/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/DETA_pe/util/plot_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/detectron2_pe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/detectron2_pe/checkpoint/detection_checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/detectron2_pe/modeling/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/detectron2_pe/modeling/backbone/pev1_det.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/projects/ViTDet/configs/COCO/mask_rcnn_PEcore_G_coco75ep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/projects/ViTDet/configs/COCO/mask_rcnn_PEspatial_G_coco36ep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/projects/ViTDet/configs/LVIS/mask_rcnn_PEspatial_G_lvis75ep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/projects/ViTDet/configs/common/coco_loader_lsj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/detection/tools/lazyconfig_train_net_pe_slurm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/babel_imagenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/caltech101.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/crossmodal3600.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/en_classnames.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/en_zeroshot_classification_templates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/flickr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/imagenetv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/kitti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/multilingual_mscoco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/pos_neg_caption_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/tfds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/video_retrieval_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/datasets/winoground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/metrics/__captioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/metrics/image_caption_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/metrics/zeroshot_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/metrics/zeroshot_retrieval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/tasks/wds_benchmarks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/clip_benchmark/webdataset_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/docs/assets/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/docs/assets/spatial_correspondence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/docs/assets/spatial_features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/docs/assets/teaser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/pe/docs/evaluation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/datasets.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/stage_1/plm_1b.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/stage_1/plm_8b.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/stage_2/plm_1b.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/stage_2/plm_3b.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/stage_3/plm_1b.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/stage_3/plm_3b.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/configs/stage_3/plm_8b.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/consolidate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/dataset_conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/docs/evaluation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/docs/finetune_example.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/docs/plm_videobench.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/apps/plm/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/data/conversation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/data/preprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/distributed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/optim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/stool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/tests/Rock-climbing-Canada-1920x1147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/tests/dataloader_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/tests/llama3_tokenizer_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/tests/selfie_cathedral_peak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/transforms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/transforms/video_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_encoder/bpe_simple_vocab_16e6.txt.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_encoder/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_encoder/pe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_encoder/rope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_encoder/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_encoder/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_projector/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_projector/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/core/vision_projector/mlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/perception_models.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/perception_models.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/perception_models.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/perception_models.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/perception_models.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perception_models/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/core/orchestrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/captioning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/captioning/captioning_model_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/captioning/sales_force_blip_base_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/encoder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/encoder/clip_model_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/encoder/encoder_model_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/backend/encoder/perception_encoder_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/captioning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/captioning/captioning_model_frontend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/captioning/sales_force_blip_base_frontend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/encoder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/encoder/clip_model_frontend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/encoder/encoder_model_frontend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/frontend/encoder/perception_encoder_frontend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/model_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/model_engine/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/models/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/storage/interfaces/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/storage/interfaces/storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/storage/local_filesystem/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/storage/local_filesystem/vfs_file_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/storage/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/storage/storage_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/utils/embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sfind/utils/ser_deser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/captioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="33Uq87xeFNb9ZewcdD3qEJIr9tF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.captioning.executor": "Run",
+    "Python.cli.executor": "Run",
+    "Python.driver.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.orchestrator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/furqanshaikh/Documents/dev/sfind"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sfind/model_engine/backend/captioning" />
+      <recent name="$PROJECT_DIR$/sfind/model_engine/backend/encoder" />
+      <recent name="$PROJECT_DIR$/sfind/model_engine/frontend/captioning" />
+      <recent name="$PROJECT_DIR$/sfind/model_engine/frontend/encoder" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="cli" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="sfind" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 virtualenv at ~/Documents/dev/sfind/venv-311" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sfind/cli.py" />
+      <option name="PARAMETERS" value="--query &quot;novak djokovic playing tennis&quot; --path $PROJECT_DIR$/images --file_type i --explain true --limit 3" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c13e27db-1ae2-4cb7-b240-85988d3f8504" name="Changes" comment="" />
+      <created>1759381835615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759381835615</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/model_engine/backend/encoder/clip_model_backend.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/cli.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/model_engine/backend/encoder/perception_encoder_backend.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/model_engine/backend/encoder/clip_model_backend.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/model_engine/backend/encoder/clip_model_backend.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/model_engine/backend/encoder/clip_model_backend.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/core/orchestrator.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/utils/embeddings.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/core/orchestrator.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/utils/embeddings.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/cli.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/model_engine/model_factory.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sfind/core/orchestrator.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+from typing import Protocol
+
+from sfind.models.models import EmbedTextRequest, EmbedTextResponse, EmbedImageRequest, EmbedImageResponse, \
+    SimilarityScoreRequest, SimilarityScoreResponse, SimilarityScoreUsingSpaceRequest
+
+
+class EncoderModelFrontEnd(Protocol):
+    def get_model_id(self) -> str: ...
+    async def embed_text(self, embed_text_request: EmbedTextRequest) -> EmbedTextResponse:  ...
+
+    async def embed_image(self, embed_image_request: EmbedImageRequest) -> EmbedImageResponse:  ...
+
+    async def get_similarity_score(self,
+                                   similarity_score_request: SimilarityScoreRequest) -> SimilarityScoreResponse: ...
+
+    async def get_similarity_score_using_space(self, request: SimilarityScoreUsingSpaceRequest) ->SimilarityScoreResponse: ...

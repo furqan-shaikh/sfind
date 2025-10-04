@@ -1,0 +1,3 @@
+[submodule "sfind/perception_models"]
+	path = sfind/perception_models
+	url = https://github.com/facebookresearch/perception_models.git

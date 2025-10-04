@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/venv-311" />
+      <excludeFolder url="file://$MODULE_DIR$/venv-311/lib/python3.11/site-packages/sklearn/datasets/images" />
+      <excludeFolder url="file://$MODULE_DIR$/venv310" />
+      <excludeFolder url="file://$MODULE_DIR$/venv310/lib/python3.10/site-packages/sklearn/datasets/images" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.11 virtualenv at ~/Documents/dev/sfind/venv-311" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
