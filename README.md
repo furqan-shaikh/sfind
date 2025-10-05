@@ -104,7 +104,7 @@ This means:
 - Use descriptive phrases instead of single words.
     - ✅ "tennis player hitting a backhand"
     - ❌ "tennis"
-  - Include context when possible.
+- Include context when possible.
     - ✅ "cat sleeping on a sofa in sunlight"
     - ❌ "cat"
 The more specific your query, the higher the chance the top results match your intent.
