@@ -83,11 +83,11 @@ Types of files to search. Valid values as of now are: i
 
 ## 🤖 Supported Models
 
-| Name                      | Type             | Description                                                                  | Model ID            | Size |
-|---------------------------|------------------|------------------------------------------------------------------------------|------------------|------|
-| Meta's Perception Encoder | Vision Encoder   | Family of the state-of-the-art vision encoders for encoding images and video | PE-Core-L14-336  | 2.68 GB
-| CLIP                      | Vision Encoder   | OpenAI's versatile embeddings for visual & textual data                      | openai/clip-vit-base-patch32 | 605 MB
-| SalesForce BLIP           | Captioning Model | Salesforce’s BLIP (Bootstrapping Language-Image Pre-training) model                                 | Salesforce/blip-image-captioning-base   | 990 MB
+| Name                                                                               | Type             | Description                                                                  | Model ID            | Size |
+|------------------------------------------------------------------------------------|------------------|------------------------------------------------------------------------------|------------------|------|
+| [Meta's Perception Encoder](https://github.com/facebookresearch/perception_models) | Vision Encoder   | Family of the state-of-the-art vision encoders for encoding images and video | PE-Core-L14-336  | 2.68 GB
+| [CLIP](https://huggingface.co/openai/clip-vit-base-patch32)                        | Vision Encoder   | OpenAI's versatile embeddings for visual & textual data                      | openai/clip-vit-base-patch32 | 605 MB
+| [SalesForce BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base)    | Captioning Model | Salesforce’s BLIP (Bootstrapping Language-Image Pre-training) model                                 | Salesforce/blip-image-captioning-base   | 990 MB
 
 ## 🧠 Understanding Search Results
 `sfind` uses semantic embeddings — it looks for meaning, not keywords.
