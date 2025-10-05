@@ -42,6 +42,8 @@ class PerceptionEncoderModelBackEnd:
     async def get_similarity_score(self,
                                    similarity_score_request: SimilarityScoreRequest) -> SimilarityScoreResponse:
         def _compute():
+            # perform dot product to yield embedding similarity i.e. cosine similarity
+            # Both text and image embeddings are of shape (1, 1024)
             similarity = (similarity_score_request.text_embedding.to(
                 torch.float32) @ similarity_score_request.image_embedding.T).item()
             return SimilarityScoreResponse(score=similarity)

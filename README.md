@@ -75,8 +75,6 @@ Types of files to search. Valid values as of now are: i
     Generate captions for image results (default: false).
 
 
-
-
 ## 🔧 How it works
  - Embedding generation: files are encoded into vectors by your chosen model.
  - Stored in filesystem: embeddings saved as extended attributes (xattrs) in the inode.
@@ -91,8 +89,36 @@ Types of files to search. Valid values as of now are: i
 | CLIP                      | Vision Encoder   | OpenAI's versatile embeddings for visual & textual data                      | openai/clip-vit-base-patch32 | 605 MB
 | SalesForce BLIP           | Captioning Model | Salesforce’s BLIP (Bootstrapping Language-Image Pre-training) model                                 | Salesforce/blip-image-captioning-base   | 990 MB
 
+## 🧠 Understanding Search Results
+`sfind` uses semantic embeddings — it looks for meaning, not keywords.
+Instead of matching exact words, it compares the concepts in your query and files using AI models like Perception Encoder or CLIP.
+
+This means:
+ - You might see results that are loosely related but not exact matches.
+ - For example, searching for “Novak Djokovic playing tennis” might return a tennis photo at the top, but also some unrelated image lower down — because the model found visual or structural similarities (like layout, texture, or color patterns).
+ - These results aren’t random; they’re the model’s best semantic guesses.
+
+
+## 💡Tip for Better Queries
+
+- Use descriptive phrases instead of single words.
+    - ✅ "tennis player hitting a backhand"
+    - ❌ "tennis"
+  - Include context when possible.
+    - ✅ "cat sleeping on a sofa in sunlight"
+    - ❌ "cat"
+The more specific your query, the higher the chance the top results match your intent.
+
 ## Design
 ![sfind_design.png](docs/sfind_design.png)
+
+### Encoder Models
+`sfind` provides 2 encoder models : Perception Encoder and CLIP.
+
+#### Perception Encoder
+- Family of pretrained models by Meta for images and text.
+- Converts images or text into 1024-dimensional embeddings.
+- Embeddings are unit-normalized, so dot product ≈ cosine similarity.
 
 ## 📜 License
 MIT License
