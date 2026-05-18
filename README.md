@@ -121,6 +121,6 @@ The more specific your query, the higher the chance the top results match your i
 - Embeddings are unit-normalized, so dot product ≈ cosine similarity.
 
 ## 📜 License
-MIT License
+Apache 2.0 License
 
 
